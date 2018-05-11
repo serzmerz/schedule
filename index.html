@@ -6,9 +6,74 @@
     <link rel="stylesheet" href="sheet.css">
 </head>
 <body>
-<p>Text color</p>
+<div class="wrapSchedules">
+ <div>
+    <h1>Regular schedule</h1>
+    <form name="regularForm" id="regularForm">
+      <div class="wrapInput">
+        <label>Enter sleep time range: <input name="sleepFrom" type="text"><input name="sleepTo" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Enter way to work time range: <input name="wayToWorkFrom" type="text"><input name="wayToWorkTo" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Enter way to work type transport: <input name="wayToWorkTransport" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Work start at: <input name="workStart" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Work end at: <input name="workEnd" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Enter way from work time range: <input name="wayFromWorkFrom" type="text"><input name="wayFromWorkTo" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Enter way from work type transport: <input name="wayFromWorkTransport" type="text"></label>
+      </div>
+      <div class="wrapInput">
+        <label>Enter activity at home range: <input name="activityAtHomeFrom" type="text"><input name="activityAtHomeTo" type="text"></label>
+      </div>
+      <div class="wrapInput">
+         <input type="submit">
+      </div>
+    </form>
+  </div>
+ <div>
+<h1>Optimized schedule</h1>
+<form name="optimizedForm" id="optimizedForm">
+  <div class="wrapInput">
+    <label>Enter sleep time range: <input name="sleepFrom" type="text"><input name="sleepTo" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Enter way to work time range: <input name="wayToWorkFrom" type="text"><input name="wayToWorkTo" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Enter way to work type transport: <input name="wayToWorkTransport" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Work start at: <input name="workStart" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Work end at: <input name="workEnd" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Enter way from work time range: <input name="wayFromWorkFrom" type="text"><input name="wayFromWorkTo" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Enter way from work type transport: <input name="wayFromWorkTransport" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <label>Enter activity at home range: <input name="activityAtHomeFrom" type="text"><input name="activityAtHomeTo" type="text"></label>
+  </div>
+  <div class="wrapInput">
+    <input type="submit">
+  </div>
+</form>
+</div>
+</div>
 <div class="wrapper">
-<canvas id="myCanvas" width="2700" height="500" style="border:1px solid #c3c3c3;">
+<canvas id="myCanvas" width="2700" height="2000" style="border:1px solid #c3c3c3;">
     Your browser does not support the canvas element.
 </canvas>
 </div>
